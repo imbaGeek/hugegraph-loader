@@ -1,0 +1,15 @@
+{
+  "vertices": [
+    {
+      "label": "person",
+      "update_strategies": {},
+      "input": {
+        "type": "${source_type}",
+        "path": "${store_path}/vertex_person.txt",
+        "format": "TEXT",
+        "header": ["name", "age", "set"],
+        "charset": "UTF-8"
+      }
+    }
+  ]
+}
